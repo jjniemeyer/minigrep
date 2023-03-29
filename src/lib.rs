@@ -44,7 +44,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn one_result() {
+    fn case_insensitive() {
         let query = "duct";
         let contents = "\
 Rust:
